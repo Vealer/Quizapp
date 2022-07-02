@@ -1,0 +1,40 @@
+body{
+    background-color: blue !important;
+}
+.quiz-card{
+    width: 40rem;
+}
+.container{
+    min-height: 100vh;
+    background-color: blue !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question-footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+.quiz-ans:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.1);
+}
+.bg-success, .bg-danger{
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+.card-img-top{
+    object-fit: contain;
+    max-height: 400px;
+}
+
+.button-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
